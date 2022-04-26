@@ -1,0 +1,110 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body{
+  background-color:#fffdc0;
+}
+
+header{
+  background-color:#cccccc ;
+}
+
+header h1{
+  display: inline-block;
+  
+}
+
+.logo{
+  padding: 50px;
+  width: 300px;
+}
+
+nav{
+  position: absolute;
+  top: 120px;
+  right: 120px;
+}
+
+nav li{
+  display: inline-flex;
+  margin-left: 30px;
+}
+
+nav a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #590f0c;
+}
+
+#botao__cabecalho{
+  margin-left: 300px;
+}
+
+nav li button{
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  transition: 1s all;
+}
+
+nav li button a{
+  color: #590f0c;
+}
+
+nav li button a:hover{
+  color: #fead26;
+}
+
+nav li button:hover{
+  transform: scale(1.2);
+  
+}
+
+h2{
+  color: #fead26;
+  margin-top: 20px;
+  margin-left: 30px;
+  text-decoration: underline;
+}
+
+.capa__filmes{
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.capa-destaque, .capa-recomendacao{
+  height: 400px;
+  width: 290px;
+}
+
+.imagem{
+  height: 40px;
+  margin-top: 70px;
+
+}
+
+.imagem-instagram{
+  height: 36px;
+}
+
+footer{
+  background-color: #cccccc;
+  margin-top: 70px;
+  height: 250px;
+}
+
+footer section{
+  margin-left: 44%;
+}
+
+footer p{
+  color: #590f0c;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 30px;
+}
